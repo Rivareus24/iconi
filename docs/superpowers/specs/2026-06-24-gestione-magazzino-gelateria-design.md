@@ -205,6 +205,30 @@ Bar. 6x1.2Kg
 Bar. 5x1Kg
 ```
 
+## Linee guida per i mockup (Claude Design)
+
+Indicazioni da dare in pasto allo strumento di design prima di disegnare le schermate.
+
+### Priorità UX
+- **Mobile-first sull'inventario.** La schermata **Inventario** è quella più usata,
+  da telefono, dai dipendenti: è la priorità di UX numero uno. Deve essere
+  velocissima e usabile con una mano/col pollice — lista prodotti **ordinata per
+  nome**, inserimento quantità rapido (tastierino numerico, campi grandi, target
+  tap ampi), nessun passaggio superfluo, salvataggio chiaro.
+- **Dashboard / Ordini da fare**: leggibilità a colpo d'occhio — urgenza evidente
+  (prodotti sotto/vicini alla minima) e raggruppamento per fornitore ben distinto.
+- Le altre schermate (Anagrafiche, Impostazioni, Consegne, Consumi) sono
+  CRUD/tabelle standard: design pulito ma senza sovra-progettare.
+
+### Coerenza tecnica
+- L'implementazione userà **shadcn/ui + Tailwind CSS**: nei mockup restare su
+  quello stile, così la traduzione in codice è quasi 1:1.
+- **Componenti puliti**, **spaziature standard** (scala di spacing di Tailwind),
+  tipografia e bordi/raggi coerenti con i default di shadcn/ui.
+- Privilegiare componenti già esistenti in shadcn/ui (Button, Input, Card, Table,
+  Dialog, Select, Tabs, Badge) invece di elementi custom.
+- Responsive: stesso codice per desktop (consultazione) e mobile (inventario, PWA).
+
 ## Fuori scope (v1)
 - Gestione utenti / ruoli multipli.
 - Funzionamento offline.
