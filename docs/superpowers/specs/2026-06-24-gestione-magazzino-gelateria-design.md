@@ -25,8 +25,10 @@ periodico e suggerimento degli ordini.
    sommano mai** alla giacenza.
 2. **Consegne ricevute** = registrate solo come storico ed entrano nel calcolo
    del consumo. Non modificano la giacenza.
-3. **Consumi** = **stimati**, mai inseriti a mano:
-   `consumo = inventario_precedente + consegne_nel_periodo − inventario_attuale`.
+3. **Consumi** = **stimati**, mai inseriti a mano: per ogni intervallo tra due
+   inventari `consumo = inventario_precedente + consegne_nel_periodo − inventario_attuale`,
+   e il consumo settimanale di riferimento è la **media degli ultimi N intervalli**
+   (default N = 4, con fallback a meno intervalli se non disponibili).
 4. **Suggerimento ordini** = previsione di quando ogni prodotto scenderà sotto la
    minima della stagione corrente, ordinato per urgenza.
 5. **Stagione** a **tre livelli manuali**: bassa / media / alta (interruttore
@@ -109,14 +111,16 @@ cadenza, agganciato alla domenica corrispondente (non serve memorizzarlo).
 il prodotto non compare nell'ultimo inventario).
 
 ### Consumo stimato (per prodotto)
-Sull'intervallo tra l'inventario precedente `P` e l'attuale `A`:
+Per ogni intervallo tra l'inventario precedente `P` e il successivo `A`:
 ```
-consumo = qty_P + somma_consegne(prodotto, da data_P a data_A) − qty_A
+consumo_intervallo = qty_P + somma_consegne(prodotto, da data_P a data_A) − qty_A
 settimane = (data_A − data_P) / 7
-consumo_settimanale = consumo / settimane
+consumo_settimanale_intervallo = consumo_intervallo / settimane
 ```
-v1: si usa l'**ultimo intervallo disponibile** (P = penultimo inventario,
-A = ultimo). Estensione futura possibile: media su più intervalli.
+v1: il consumo settimanale di riferimento è la **media degli ultimi N intervalli**
+(default `N = 4`), con fallback a meno intervalli se non ce ne sono abbastanza.
+Smussa le settimane anomale restando reattivo. Estensione futura possibile:
+limitare la media agli intervalli della stagione corrente.
 
 ### Previsione ordini
 ```
@@ -153,4 +157,4 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 - Funzionamento offline.
 - App nativa.
 - Registrazione manuale dei consumi (scarti/rotture).
-- Media del consumo su più intervalli (possibile estensione futura).
+- Media del consumo limitata alla stagione corrente (possibile estensione futura).
