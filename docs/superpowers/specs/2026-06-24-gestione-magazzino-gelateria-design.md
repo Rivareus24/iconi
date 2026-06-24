@@ -60,10 +60,17 @@ periodico e suggerimento degli ordini.
 - `email` (opz.)
 - `note` (opz.)
 
+### `unita_misura`
+- `id`
+- `nome` (unico) — etichetta **opaca** della confezione/formato (es. `Latta Kg. 3`,
+  `Ct. 50pz`, `Bottiglia`). Nessun parsing di pesi/quantità: si conta in pezzi di
+  quella confezione. Precaricata con la lista sotto, deduplicata; estendibile da
+  anagrafica.
+
 ### `prodotti`
 - `id`
 - `nome`
-- `unita_misura` (es. kg, litri, pz, conf.)
+- `unita_misura_id` → `unita_misura` (scelta via menu a tendina)
 - `fornitore_id` → `fornitori`
 - `min_bassa` — soglia minima stagione bassa
 - `min_media` — soglia minima stagione media
@@ -143,14 +150,60 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
    **ordinato per nome**. Pagina di sola consultazione/statistica.
 4. **Dashboard / Ordini da fare** — prodotti sotto o vicini alla minima della
    stagione corrente, con previsione di urgenza, **raggruppati per fornitore**.
-5. **Anagrafiche** — gestione fornitori (nome, telefono, email, note) e prodotti
-   (nome, unità di misura, fornitore, tre minime stagionali).
+5. **Anagrafiche** — gestione fornitori (nome, telefono, email, note), prodotti
+   (nome, unità di misura, fornitore, tre minime stagionali) e lista unità di
+   misura/confezioni.
 6. **Impostazioni** — interruttore stagione (bassa/media/alta), cadenza inventario
    (settimanale/bisettimanale) e visualizzazione del prossimo inventario atteso.
 
 ## Ordinamenti richiesti
 - **Inventario** → per **nome prodotto**.
 - **Consegne** e **ordini da fare** → per **fornitore**, poi per **prodotto**.
+
+## Dati iniziali — unità di misura (seed)
+
+Lista precaricata in `unita_misura` (deduplicata; "Ct. 50pz" era ripetuto):
+
+```
+Bottiglia
+Cartone
+Ct 6Sx250gr.
+Ct. 1000pz
+Ct. 150pz
+Ct. 189pz
+Ct. 20.000pz
+Ct. 225pz
+Ct. 24pz
+Ct. 300pz
+Ct. 30pz
+Ct. 50pz
+Ct. 720pz
+Fogli
+Kg.
+Latta Kg. 1,25
+Latta Kg. 3
+Latta Kg. 3,5
+Latta Kg. 4
+Latta Kg. 4,5
+Latta Kg. 5
+Latta Kg. 5,5
+Latta Kg. 6
+Nr.
+Rotoli
+Sacchetto
+Sacchetto gr. 700
+Sacchetto Kg. 1,25
+Sacchetto Kg. 2
+Sacchetto Kg. 2,5
+Sacchetto Kg. 3
+Sacch. 6xKg. 1,25
+Scatola 300pz
+Secchio
+Cartone 10SxKg.1,2
+Bar. 12X0,150
+Bar. 6x1.2Kg
+Bar. 5x1Kg
+```
 
 ## Fuori scope (v1)
 - Gestione utenti / ruoli multipli.
