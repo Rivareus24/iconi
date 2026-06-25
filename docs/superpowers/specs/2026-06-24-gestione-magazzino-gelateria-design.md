@@ -31,8 +31,9 @@ periodico e suggerimento degli ordini.
    (default N = 4, con fallback a meno intervalli se non disponibili).
 4. **Suggerimento ordini** = previsione di quando ogni prodotto scenderà sotto la
    minima della stagione corrente, ordinato per urgenza.
-5. **Stagione** a **tre livelli manuali**: bassa / media / alta (interruttore
-   gestito dal titolare). Ogni prodotto ha tre soglie minime corrispondenti.
+5. **Stagione** a **due livelli manuali**: estate / inverno (interruttore
+   gestito dal titolare). Ogni prodotto ha due soglie minime corrispondenti
+   (estate più alta, inverno più bassa).
 6. **Cadenza inventario** ragiona in **domeniche**: l'inventario si fa di domenica.
    - Settimanale → prossimo inventario = prossima domenica.
    - Bisettimanale → prossimo inventario = tra due domeniche.
@@ -72,9 +73,8 @@ periodico e suggerimento degli ordini.
 - `nome`
 - `unita_misura_id` → `unita_misura` (scelta via menu a tendina)
 - `fornitore_id` → `fornitori`
-- `min_bassa` — soglia minima stagione bassa
-- `min_media` — soglia minima stagione media
-- `min_alta` — soglia minima stagione alta
+- `min_estate` — soglia minima stagione estate (più alta)
+- `min_inverno` — soglia minima stagione inverno (più bassa)
 
 ### `inventari`
 - `id`
@@ -105,7 +105,7 @@ e quantità; il raggruppamento per fornitore in UI deriva dal `fornitore_id` del
 prodotto. Le consegne sono solo storico + input per il calcolo consumo.
 
 ### `impostazioni` (riga singola)
-- `stagione_corrente` — enum `bassa | media | alta`
+- `stagione_corrente` — enum `estate | inverno`
 - `cadenza` — enum `settimanale | bisettimanale`
 
 Il "prossimo inventario atteso" è **calcolato** da `data` dell'ultimo inventario +
@@ -151,9 +151,9 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 4. **Dashboard / Ordini da fare** — prodotti sotto o vicini alla minima della
    stagione corrente, con previsione di urgenza, **raggruppati per fornitore**.
 5. **Anagrafiche** — gestione fornitori (nome, telefono, email, note), prodotti
-   (nome, unità di misura, fornitore, tre minime stagionali) e lista unità di
-   misura/confezioni.
-6. **Impostazioni** — interruttore stagione (bassa/media/alta), cadenza inventario
+   (nome, unità di misura, fornitore, due minime stagionali estate/inverno) e
+   lista unità di misura/confezioni.
+6. **Impostazioni** — interruttore stagione (estate/inverno), cadenza inventario
    (settimanale/bisettimanale) e visualizzazione del prossimo inventario atteso.
 
 ## Ordinamenti richiesti
