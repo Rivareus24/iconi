@@ -182,6 +182,11 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 - **Inventario** → per **nome prodotto**.
 - **Consegne** e **ordini da fare** → per **fornitore**, poi per **prodotto**.
 
+## Formati di visualizzazione
+- **Date**: formato `5 gen 2026` — giorno senza zero iniziale, mese abbreviato in
+  italiano (gen, feb, mar, apr, mag, giu, lug, ago, set, ott, nov, dic), anno a 4
+  cifre. Vale per tutte le date mostrate in interfaccia (inventari, consegne, ecc.).
+
 ## Dati iniziali (seed)
 
 Sorgente canonica del seed prodotti: [`data/seed/prodotti.csv`](../../../data/seed/prodotti.csv)
