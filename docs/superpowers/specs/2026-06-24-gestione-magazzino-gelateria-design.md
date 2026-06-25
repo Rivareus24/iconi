@@ -186,6 +186,10 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 - **Date**: formato `5 gen 2026` — giorno senza zero iniziale, mese abbreviato in
   italiano (gen, feb, mar, apr, mag, giu, lug, ago, set, ott, nov, dic), anno a 4
   cifre. Vale per tutte le date mostrate in interfaccia (inventari, consegne, ecc.).
+- **Contesto delle quantità (regola globale)**: ogni volta che una quantità viene
+  **mostrata o inserita** — in qualsiasi schermata (inventario, consegne, consumi,
+  dashboard/ordini) — accanto compaiono **sempre il fornitore e l'unità di misura**
+  del prodotto. Una quantità non va mai presentata "nuda".
 
 ## Dati iniziali (seed)
 
