@@ -160,7 +160,113 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 - **Inventario** → per **nome prodotto**.
 - **Consegne** e **ordini da fare** → per **fornitore**, poi per **prodotto**.
 
-## Dati iniziali — unità di misura (seed)
+## Dati iniziali (seed)
+
+Sorgente canonica del seed prodotti: [`data/seed/prodotti.csv`](../../../data/seed/prodotti.csv)
+(132 prodotti). Le tabelle sotto sono la copia leggibile.
+
+**Nota modello:** un prodotto appartiene a **un solo fornitore**. Gli articoli
+fungibili acquistabili da più fornitori (es. Destrosio da Docks e Reire) restano
+come **righe distinte** — scelta voluta.
+
+**Da completare:** 5 prodotti senza unità di misura (segnati con `—`): Nescafè
+(Docks), misto bosco gelo (Gaggino), cono senza glutine (Gaggino), scatole torta
+33x33 (Bonella), scatole torta 31x44 (Bonella).
+
+### Fornitori (19)
+
+Benvenuto · Bonella · Coopbox · Di Sano · Docks · Elenka · Ferrero · Fructital ·
+Fugar · G&P · Gaggino · Irca · Martini · Mec3 · Officine Grafiche · Ostificio P. ·
+Pack Studio · Reire · Siculabrioche
+
+### Prodotti (per fornitore → prodotto → unità di misura)
+
+**Benvenuto** — Mandorla affettata (Kg.) · Nocciola pasta (Latta Kg. 5) ·
+Nocciola granella (Kg.) · Nocciola intere (Kg.) · Pistacchi granella (Kg.) ·
+Pistacchi interi (Kg.)
+
+**Bonella** — Alluminio rotolo (Nr.) · Rotoloni carta (Nr.) · Shopper carta
+personalizzati (Ct. 300pz) · Tovagliolini 17x17 personalizzati (Ct. 20.000pz) ·
+scatole torta 33x33 (—) · scatole torta 31x44 (—)
+
+**Coopbox** — Vaschetta PCR0029 350gr (Ct. 50pz) · Vaschetta PCR0020 500gr.
+(Ct. 50pz) · Vaschetta PCR0023 750gr. (Ct. 50pz) · Vaschetta PCR0026 1000gr.
+(Ct. 50pz) · Vaschetta PCR0028 1500gr. (Ct. 24pz)
+
+**Di Sano** — Cocco Rapè (Kg.)
+
+**Docks** — Cucchiaini Granita (Sacchetto) · Destrosio (Kg.) · Palette gelato
+cm.9,5 comp. (Sacchetto) · Zucchero (Kg.) · Nescafè (—)
+
+**Elenka** — Agrolina Ciaculli (Bottiglia) · Base Nolat (Sacchetto)
+
+**Ferrero** — Nutella (Secchio)
+
+**Fructital** — Arancia variegato (Latta Kg. 4) · Bianca Vega (Sacchetto) ·
+Bianca Vega Stevia (Sacchetto) · Mandorla pasta (Latta Kg. 3,5) · Viola
+(Latta Kg. 4) · Yogurt (Sacchetto Kg. 2) · crumble cacao (Sacchetto Kg. 2) ·
+crumble caramello (Sacchetto Kg. 2) · biscotto SL pasta (Latta Kg. 4) ·
+biscotto SL variegato (Latta Kg. 4)
+
+**Fugar** — Base Panna (Sacchetto Kg. 3) · CNC (Latta Kg. 6) · Crema emiliana
+(Latta Kg. 3) · Glassatura (Latta Kg. 5,5) · Menta (Latta Kg. 5,5) ·
+Pistacchio Puro (Latta Kg. 5,5) · Pistacchio Salty (Latta Kg. 3)
+
+**G&P** — Amaretti granella (Kg.) · Bignè mm. 45 (Cartone) · Dobus roll 12 fogli
+(Fogli) · Fragola variegato (Latta Kg. 4) · Frutti di bosco variegato
+(Latta Kg. 3) · Nonnakrem pasta (Latta Kg. 3) · Pan di spagna (Fogli) ·
+Pistacchio Bronte (Kg.) · Semifreddo Stracciatella (Latta Kg. 1,25)
+
+**Gaggino** — Bignè mm. 45 cad. gr. ca.3/4 (Ct 6Sx250gr.) · Cannucce (Nr.) ·
+Cono Coppa piccola (Ct. 720pz) · Cono Super Granellato h180xd.50 (Ct. 150pz) ·
+Cucchiaini Granita (Sacchetto) · Dobus roll 12 fogli (Fogli) · Gocce bianco
+(Kg.) · Gocce fondente (Kg.) · Palette gelato cm.9,5 comp. (Sacchetto) ·
+Pan di spagna (Fogli) · scaglie fondenti (Kg.) · lamponi rotti (Kg.) ·
+fragole gelo (Kg.) · mango (Kg.) · misto bosco gelo (—) · cono senza glutine (—)
+
+**Irca** — Cacao 22/24 (Kg.) · CNC Nocciolata Ice (Latta Kg. 5) · Glassatura Joy
+Couv. extra dark (Latta Kg. 5) · Gocce bianco Reno Concerto (Kg.) · Gocce
+fondente Reno Concerto (Kg.) · Joycream raspberry milk (Latta Kg. 5) · Joycream
+raspberry white (Latta Kg. 5) · Joy couverture extra white (Latta Kg. 5) ·
+Franui Milk (Bar. 12X0,150) · Joyquick lampone (Sacch. 6xKg. 1,25) · Purea
+Lampone essential (Bar. 5x1Kg) · Joypaste caffè (Bar. 6x1.2Kg)
+
+**Martini** — Cacao Aymara 22/24 (Kg.) · CNC Brunella Gianduia top (Latta Kg. 5) ·
+Glassatura Stracc Super. Fond. Più (Latta Kg. 5) · Gocce bianco (Kg.) · Gocce
+fondente (Kg.)
+
+**Mec3** — Biscottino pasta (Latta Kg. 4,5) · Cherry Mania (Latta Kg. 5) ·
+Cookies Variegato (Latta Kg. 6) · Frollini (Sacchetto gr. 700) · Liquirizia
+(Latta Kg. 3) · Mini cookies (Scatola 300pz) · Mr Nico Pasta (Latta Kg. 5) ·
+Mr Nico Variegato (Latta Kg. 4) · Neutral Jelly (Latta Kg. 3) · Pistacchio Fior
+di sale Sicilia (Latta Kg. 4) · Vanilla Gourmet SZ pasta (Latta Kg. 3) · Vov
+pasta (Latta Kg. 4,5) · Mirror Glaze Fragola (Latta Kg. 3) · Mirror Glaze Violet
+(Latta Kg. 3) · Mirror Glaze Mango (Latta Kg. 3) · crumble neutro
+(Sacchetto Kg. 2,5) · crumble frutti di bosco (Sacchetto Kg. 2,5) · pasta
+mascarpone (Latta Kg. 4,5) · base caramello salato (Sacchetto) · caramello salato
+variegatura (Latta Kg. 6) · Dubai pistacchio variegato (Latta Kg. 5,5) ·
+Guinness Kit (Cartone)
+
+**Officine Grafiche** — Fascette adesive (Rotoli) · scatola torta 14x14 140pz
+(Nr.) · scatola torta 19x19 140pz (Nr.) · scatola torta 23x23 120pz (Nr.) ·
+scatola torta 27x27 100pz (Nr.) · scatola torta 31x31 100pz (Nr.) ·
+ShopperBio750pzxct caKg100=6000pz (Cartone)
+
+**Ostificio P.** — Cono grande OP5 (Ct. 225pz) · Cono maxi Cialda F91
+(Ct. 189pz) · Cono medio OP4 (Ct. 300pz) · Cono piccolo OP1 (Ct. 300pz) ·
+Gusto Tondo personalizzato (Ct. 1000pz)
+
+**Pack Studio** — Bicchiere grande 45W pers. (Nr.) · Bicchiere piccolo 25M pers.
+(Nr.) · Coperchio bicchiere grande 42C (Nr.) · Coperchio bicchiere piccolo 25C
+(Nr.) · Coppa G4 personalizzata (Nr.) · Coppa grande CX160 pers. (Nr.) · Coppa
+media 90 pers. (Nr.) · Coppa piccola 80 pers. (Nr.)
+
+**Reire** — Destrosio (Kg.) · Glucosio polvere (Kg.) · Inulina (Kg.) · Latte in
+polvere intero istantaneo (Kg.)
+
+**Siculabrioche** — Brioches (Nr.)
+
+### Unità di misura
 
 Lista precaricata in `unita_misura` (deduplicata; "Ct. 50pz" era ripetuto):
 
