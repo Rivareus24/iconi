@@ -76,6 +76,8 @@ periodico e suggerimento degli ordini.
 - `min_estate` — soglia minima stagione estate (più alta)
 - `min_inverno` — soglia minima stagione inverno (più bassa)
 
+Le minime sono numeriche, ammettono **decimali** (es. 0,5) e il valore **0**.
+
 ### `inventari`
 - `id`
 - `data` (date, tipicamente una domenica)
@@ -163,7 +165,7 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 ## Dati iniziali (seed)
 
 Sorgente canonica del seed prodotti: [`data/seed/prodotti.csv`](../../../data/seed/prodotti.csv)
-(132 prodotti). Le tabelle sotto sono la copia leggibile.
+(133 prodotti). Le tabelle sotto sono la copia leggibile.
 
 **Nota modello:** un prodotto appartiene a **un solo fornitore**. Gli articoli
 fungibili acquistabili da più fornitori (es. Destrosio da Docks e Reire) restano
@@ -238,8 +240,8 @@ Mr Nico Variegato (Latta Kg. 4) · Neutral Jelly (Latta Kg. 3) · Pistacchio Fio
 di sale Sicilia (Latta Kg. 4) · Vanilla Gourmet SZ pasta (Latta Kg. 3) · Vov
 pasta (Latta Kg. 4,5) · Mirror Glaze Fragola (Latta Kg. 3) · Mirror Glaze Violet
 (Latta Kg. 3) · Mirror Glaze Mango (Latta Kg. 3) · crumble neutro
-(Sacch. Kg. 2,5) · crumble frutti di bosco (Sacch. Kg. 2,5) · pasta
-mascarpone (Latta Kg. 4,5) · base caramello salato (Sacch.) · caramello salato
+(Sacch. Kg. 2,5) · crumble frutti di bosco (Sacch. Kg. 2,5) · crumble bosco
+(Sacch. Kg. 2) · pasta mascarpone (Latta Kg. 4,5) · base caramello salato (Sacch.) · caramello salato
 variegatura (Latta Kg. 6) · Dubai pistacchio variegato (Latta Kg. 5,5) ·
 Guinness Kit (Ct.)
 
