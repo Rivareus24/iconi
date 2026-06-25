@@ -314,6 +314,22 @@ Indicazioni da dare in pasto allo strumento di design prima di disegnare le sche
   Dialog, Select, Tabs, Badge) invece di elementi custom.
 - Responsive: stesso codice per desktop (consultazione) e mobile (inventario, PWA).
 
+### Iconografia
+- **Stile**: icone **solid** (piene), coerenti su tutta l'app. Set consigliato:
+  **Heroicons (solid)** — si integra bene con Tailwind/shadcn; in alternativa
+  Phosphor "fill". Un solo set per tutta l'interfaccia.
+- **Dimensione**: standard web — **20px** inline/accanto al testo, **24px** per
+  elementi più in evidenza (topbar, titoli). Allineate verticalmente al testo.
+- **Dove usare le icone** (icona + etichetta, mai icona da sola se non ovvia):
+  - **Voci della topbar** (navigazione): un'icona per ciascuna sezione.
+  - **Titolo pagina**: icona accanto al titolo della schermata.
+  - **Bottoni**: icona iniziale (leading) accanto al testo del bottone.
+  - **Bottone estate/inverno**: icona stagione — sole (estate) / fiocco di neve
+    (inverno) — che cambia con lo stato attivo.
+  - **Titoli delle modali**: icona accanto al titolo della modale.
+  - **Button group**: un'icona per ciascuna opzione del gruppo.
+  - **Voci delle impostazioni**: icona accanto a ogni voce.
+
 ## Fuori scope (v1)
 - Gestione utenti / ruoli multipli.
 - Funzionamento offline.
