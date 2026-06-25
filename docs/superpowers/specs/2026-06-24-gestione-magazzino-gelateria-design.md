@@ -145,7 +145,9 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 
 1. **Inventario (mobile)** — elenco prodotti **ordinato per nome**; per ciascuno si
    inserisce la quantità; salva → crea un nuovo inventario (snapshot completo).
-   UI ottimizzata per il telefono.
+   Accanto a ogni prodotto è mostrato **sempre il fornitore** (oltre all'unità di
+   misura), così prodotti con nome identico (es. "Pistacchio Sicilia" di G&P e di
+   Mec3) restano distinguibili. UI ottimizzata per il telefono.
 2. **Consegne** — registrazione (data, per fornitore i prodotti con quantità) e
    storico **ordinato per fornitore → prodotto**.
 3. **Consumi** — consumo stimato (settimanale) per prodotto e storico tra inventari,
