@@ -76,7 +76,8 @@ periodico e suggerimento degli ordini.
 - `min_estate` — soglia minima stagione estate (più alta)
 - `min_inverno` — soglia minima stagione inverno (più bassa)
 
-Le minime sono numeriche, ammettono **decimali** (es. 0,5) e il valore **0**.
+Tutte le quantità (giacenze, minime, righe inventario, righe consegna) sono
+**numeri interi** — niente decimali. Il valore **0** è ammesso.
 
 ### `inventari`
 - `id`
@@ -87,7 +88,7 @@ Le minime sono numeriche, ammettono **decimali** (es. 0,5) e il valore **0**.
 - `id`
 - `inventario_id` → `inventari`
 - `prodotto_id` → `prodotti`
-- `quantita`
+- `quantita` (intero)
 
 Ogni inventario è uno **snapshot completo**. La giacenza attuale di un prodotto =
 la sua quantità nell'**ultimo** inventario.
@@ -100,7 +101,7 @@ la sua quantità nell'**ultimo** inventario.
 - `id`
 - `consegna_id` → `consegne`
 - `prodotto_id` → `prodotti` (il fornitore è derivato dal prodotto)
-- `quantita`
+- `quantita` (intero)
 
 Una consegna ha una data e contiene più fornitori, ciascuno con i propri prodotti
 e quantità; il raggruppamento per fornitore in UI deriva dal `fornitore_id` del
