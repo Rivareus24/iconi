@@ -75,9 +75,23 @@ periodico e suggerimento degli ordini.
 - `fornitore_id` → `fornitori`
 - `min_estate` — soglia minima stagione estate (più alta)
 - `min_inverno` — soglia minima stagione inverno (più bassa)
+- `archiviato` — booleano, default `false`
+- `archiviato_il` — data di archiviazione (opz.)
 
 Tutte le quantità (giacenze, minime, righe inventario, righe consegna) sono
 **numeri interi** — niente decimali. Il valore **0** è ammesso.
+
+### Archiviazione prodotti
+Un prodotto può essere **archiviato**: da quel momento `archiviato = true` e il
+prodotto **non è più visibile in nessuna vista o menu attivo** — inventario,
+registrazione consegne, consumi, dashboard/ordini e anagrafiche lo escludono di
+default. I **record storici già salvati** (inventari/consegne passati che lo
+contenevano) restano integri e continuano a mostrarlo: l'archiviazione vale "da
+quel momento in poi", non riscrive il passato.
+
+Le liste prodotti hanno un filtro **"Mostra archiviati"** (default `false`); quando
+attivo, gli archiviati ricompaiono nell'elenco (marcati come archiviati) e possono
+essere **ripristinati** (`archiviato = false`).
 
 ### `inventari`
 - `id`
@@ -156,7 +170,8 @@ settimane_residue = (giacenza_attuale − min_attiva) / consumo_settimanale   (s
 4. **Dashboard / Ordini da fare** — prodotti sotto o vicini alla minima della
    stagione corrente, con previsione di urgenza, **raggruppati per fornitore**.
 5. **Anagrafiche** — gestione fornitori (nome, telefono, email, note), prodotti
-   (nome, unità di misura, fornitore, due minime stagionali estate/inverno) e
+   (nome, unità di misura, fornitore, due minime stagionali estate/inverno,
+   **archivia/ripristina**, con filtro **"Mostra archiviati"** default off) e
    lista unità di misura/confezioni.
 6. **Impostazioni** — interruttore stagione (estate/inverno), cadenza inventario
    (settimanale/bisettimanale) e visualizzazione del prossimo inventario atteso.
