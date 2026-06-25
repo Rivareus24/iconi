@@ -77,19 +77,19 @@ G&P,Pan di spagna,Fogli,1,1
 Gaggino,Pan di spagna,Fogli,1,1
 Benvenuto,Pistacchi granella,Kg.,2,1
 Benvenuto,Pistacchi interi,Kg.,2,1
-G&P,Pistacchio Bronte,Kg.,5,3
-Mec3,Pistacchio Fior di sale Sicilia,Latta Kg. 4,5,3
+G&P,Pistacchio Sicilia,Kg.,5,3
+Mec3,Pistacchio Sicilia,Latta Kg. 4,5,3
 Fugar,Pistacchio Puro,"Latta Kg. 5,5",5,3
 Fugar,Pistacchio Salty,Latta Kg. 3,4,2
 Bonella,Rotoloni carta,Nr.,4,2
-Officine Grafiche,scatola torta 14x14  140pz,Nr.,140,140
-Officine Grafiche,scatola torta 19x19  140pz,Nr.,140,140
-Officine Grafiche,scatola torta 23x23  120pz,Nr.,120,120
-Officine Grafiche,scatola torta 27x27  100pz,Nr.,100,100
-Officine Grafiche,scatola torta 31x31  100pz,Nr.,25,25
+Officine Grafiche,Scatola torta 14x14,Nr.,140,140
+Officine Grafiche,Scatola torta 19x19,Nr.,140,140
+Officine Grafiche,Scatola torta 23x23,Nr.,120,120
+Officine Grafiche,Scatola torta 27x27,Nr.,100,100
+Officine Grafiche,Scatola torta 31x31,Nr.,25,25
 G&P,Semifreddo Stracciatella,"Latta Kg. 1,25",18,12
 Bonella,Shopper carta personalizzati,Ct. 300pz,4,2
-Officine Grafiche,ShopperBio750pzxct caKg100=6000pz,Ct.,6,2
+Officine Grafiche,ShopperBio,Ct.,6,2
 Bonella,Tovagliolini 17x17 personalizzati,Ct. 20.000pz,2,1
 Mec3,Vanilla Gourmet SZ pasta,Latta Kg. 3,2,1
 Coopbox,Vaschetta PCR0029 350gr,Ct. 50pz,10,5
@@ -101,15 +101,15 @@ Fructital,Viola,Latta Kg. 4,1,1
 Mec3,Vov pasta,"Latta Kg. 4,5",1,1
 Fructital,Yogurt,Sacch. Kg. 2,2,1
 Docks,Zucchero,Kg.,150,100
-Gaggino,scaglie fondenti,Kg.,2,1
+Gaggino,Scaglie fondenti,Kg.,2,1
 Mec3,Mirror Glaze Fragola,Latta Kg. 3,1,1
 Mec3,Mirror Glaze Violet,Latta Kg. 3,1,1
 Mec3,Mirror Glaze Mango,Latta Kg. 3,1,1
-Mec3,crumble neutro,"Sacch. Kg. 2,5",1,1
-Mec3,crumble frutti di bosco,"Sacch. Kg. 2,5",1,1
-Mec3,pasta mascarpone,"Latta Kg. 4,5",2,1
-Mec3,base caramello salato,Sacch.,10,5
-Mec3,caramello salato variegatura,Latta Kg. 6,2,1
+Mec3,Crumble neutro,"Sacch. Kg. 2,5",1,1
+Mec3,Crumble frutti di bosco,"Sacch. Kg. 2,5",1,1
+Mec3,Pasta mascarpone,"Latta Kg. 4,5",2,1
+Mec3,Base caramello salato,Sacch.,10,5
+Mec3,Caramello salato variegatura,Latta Kg. 6,2,1
 Mec3,Dubai pistacchio variegato,"Latta Kg. 5,5",2,1
 Mec3,Guinness Kit,Ct.,0,0
 Irca,Joycream raspberry milk,Latta Kg. 5,2,1
@@ -119,16 +119,16 @@ Irca,Franui Milk,"Bar. 12X0,150",2,1
 Irca,Joyquick lampone,"Sacch. 6xKg. 1,25",2,1
 Irca,Purea Lampone essential,Bar. 5xKg. 1,2,1
 Irca,Joypaste caffè,"Bar. 6xKg. 1,2",2,1
-Fructital,crumble cacao,Sacch. Kg. 2,1,1
-Fructital,crumble caramello,Sacch. Kg. 2,1,1
-Gaggino,lamponi rotti,Kg.,2,1
-Gaggino,fragole gelo,Kg.,2,1
-Gaggino,mango,Kg.,2,1
-Fructital,biscotto SL pasta,Latta Kg. 4,2,1
-Fructital,biscotto SL variegato,Latta Kg. 4,2,1
+Fructital,Crumble cacao,Sacch. Kg. 2,1,1
+Fructital,Crumble caramello,Sacch. Kg. 2,1,1
+Gaggino,Lamponi rotti,Kg.,2,1
+Gaggino,Fragole gelo,Kg.,2,1
+Gaggino,Mango,Kg.,2,1
+Fructital,Biscotto SL pasta,Latta Kg. 4,2,1
+Fructital,Biscotto SL variegato,Latta Kg. 4,2,1
 Docks,Nescafè,Bar.,7,3
-Gaggino,misto bosco gelo,Kg.,10,5
-Gaggino,cono senza glutine,Scatola,1,0.5
-Bonella,scatole torta 33x33,Scatola,25,25
-Bonella,scatole torta  31x44,Scatola,25,25
-Mec3,crumble bosco,Sacch. Kg. 2,1,1
+Gaggino,Misto bosco gelo,Kg.,10,5
+Gaggino,Cono senza glutine,Scatola,1,0.5
+Bonella,Scatola torta 33x33,Scatola,25,25
+Bonella,Scatola torta  31x44,Scatola,25,25
+Mec3,Crumble bosco,Sacch. Kg. 2,1,1
