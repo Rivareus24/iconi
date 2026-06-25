@@ -3,14 +3,14 @@ Elenka,Agrolina Ciaculli,Bottiglia
 Bonella,Alluminio rotolo,Nr.
 G&P,Amaretti granella,Kg.
 Fructital,Arancia variegato,Latta Kg. 4
-Elenka,Base Nolat,Sacchetto
-Fugar,Base Panna,Sacchetto Kg. 3
-Fructital,Bianca Vega,Sacchetto
-Fructital,Bianca Vega Stevia,Sacchetto
+Elenka,Base Nolat,Sacch.
+Fugar,Base Panna,Sacch. Kg. 3
+Fructital,Bianca Vega,Sacch.
+Fructital,Bianca Vega Stevia,Sacch.
 Pack Studio,Bicchiere grande 45W pers.,Nr.
 Pack Studio,Bicchiere piccolo 25M pers.,Nr.
-G&P,Bignè mm. 45,Cartone
-Gaggino,Bignè mm. 45 cad. gr. ca.3/4,Ct 6Sx250gr.
+G&P,Bignè mm. 45,Ct.
+Gaggino,Bignè mm. 45 cad. gr. ca.3/4,Ct. 6Sxgr 250
 Mec3,Biscottino pasta,"Latta Kg. 4,5"
 Siculabrioche,Brioches,Nr.
 Irca,Cacao 22/24,Kg.
@@ -35,15 +35,15 @@ Pack Studio,Coppa grande CX160 pers.,Nr.
 Pack Studio,Coppa media 90 pers.,Nr.
 Pack Studio,Coppa piccola 80 pers.,Nr.
 Fugar,Crema emiliana,Latta Kg. 3
-Docks,Cucchiaini Granita,Sacchetto
-Gaggino,Cucchiaini Granita,Sacchetto
+Docks,Cucchiaini Granita,Sacch.
+Gaggino,Cucchiaini Granita,Sacch.
 Docks,Destrosio,Kg.
 Reire,Destrosio,Kg.
 Gaggino,Dobus roll 12 fogli,Fogli
 G&P,Dobus roll 12 fogli,Fogli
 Officine Grafiche,Fascette adesive,Rotoli
 G&P,Fragola variegato,Latta Kg. 4
-Mec3,Frollini,Sacchetto gr. 700
+Mec3,Frollini,Sacch. gr. 700
 G&P,Frutti di bosco variegato,Latta Kg. 3
 Fugar,Glassatura,"Latta Kg. 5,5"
 Irca,Glassatura Joy Couv. extra dark,Latta Kg. 5
@@ -71,8 +71,8 @@ Benvenuto,Nocciola granella,Kg.
 Benvenuto,Nocciola intere,Kg.
 G&P,Nonnakrem pasta,Latta Kg. 3
 Ferrero,Nutella,Secchio
-Docks,"Palette gelato cm.9,5 comp.",Sacchetto
-Gaggino,"Palette gelato cm.9,5 comp.",Sacchetto
+Docks,"Palette gelato cm.9,5 comp.",Sacch.
+Gaggino,"Palette gelato cm.9,5 comp.",Sacch.
 G&P,Pan di spagna,Fogli
 Gaggino,Pan di spagna,Fogli
 Benvenuto,Pistacchi granella,Kg.
@@ -89,7 +89,7 @@ Officine Grafiche,scatola torta 27x27  100pz,Nr.
 Officine Grafiche,scatola torta 31x31  100pz,Nr.
 G&P,Semifreddo Stracciatella,"Latta Kg. 1,25"
 Bonella,Shopper carta personalizzati,Ct. 300pz
-Officine Grafiche,ShopperBio750pzxct caKg100=6000pz,Cartone
+Officine Grafiche,ShopperBio750pzxct caKg100=6000pz,Ct.
 Bonella,Tovagliolini 17x17 personalizzati,Ct. 20.000pz
 Mec3,Vanilla Gourmet SZ pasta,Latta Kg. 3
 Coopbox,Vaschetta PCR0029 350gr,Ct. 50pz
@@ -99,35 +99,35 @@ Coopbox,Vaschetta PCR0026 1000gr.,Ct. 50pz
 Coopbox,Vaschetta PCR0028 1500gr.,Ct. 24pz
 Fructital,Viola,Latta Kg. 4
 Mec3,Vov pasta,"Latta Kg. 4,5"
-Fructital,Yogurt,Sacchetto Kg. 2
+Fructital,Yogurt,Sacch. Kg. 2
 Docks,Zucchero,Kg.
 Gaggino,scaglie fondenti,Kg.
 Mec3,Mirror Glaze Fragola,Latta Kg. 3
 Mec3,Mirror Glaze Violet,Latta Kg. 3
 Mec3,Mirror Glaze Mango,Latta Kg. 3
-Mec3,crumble neutro,"Sacchetto Kg. 2,5"
-Mec3,crumble frutti di bosco,"Sacchetto Kg. 2,5"
+Mec3,crumble neutro,"Sacch. Kg. 2,5"
+Mec3,crumble frutti di bosco,"Sacch. Kg. 2,5"
 Mec3,pasta mascarpone,"Latta Kg. 4,5"
-Mec3,base caramello salato,Sacchetto
+Mec3,base caramello salato,Sacch.
 Mec3,caramello salato variegatura,Latta Kg. 6
 Mec3,Dubai pistacchio variegato,"Latta Kg. 5,5"
-Mec3,Guinness Kit,Cartone
+Mec3,Guinness Kit,Ct.
 Irca,Joycream raspberry milk,Latta Kg. 5
 Irca,Joycream raspberry white,Latta Kg. 5
 Irca,Joy couverture extra white,Latta Kg. 5
 Irca,Franui Milk,"Bar. 12X0,150"
 Irca,Joyquick lampone,"Sacch. 6xKg. 1,25"
-Irca,Purea Lampone essential,Bar. 5x1Kg
-Irca,Joypaste caffè,Bar. 6x1.2Kg
-Fructital,crumble cacao,Sacchetto Kg. 2
-Fructital,crumble caramello,Sacchetto Kg. 2
+Irca,Purea Lampone essential,Bar. 5xKg. 1
+Irca,Joypaste caffè,"Bar. 6xKg. 1,2"
+Fructital,crumble cacao,Sacch. Kg. 2
+Fructital,crumble caramello,Sacch. Kg. 2
 Gaggino,lamponi rotti,Kg.
 Gaggino,fragole gelo,Kg.
 Gaggino,mango,Kg.
 Fructital,biscotto SL pasta,Latta Kg. 4
 Fructital,biscotto SL variegato,Latta Kg. 4
-Docks,Nescafè,
-Gaggino,misto bosco gelo,
-Gaggino,cono senza glutine,
-Bonella,scatole torta 33x33,
-Bonella,scatole torta  31x44,
+Docks,Nescafè,Bar.
+Gaggino,misto bosco gelo,Kg.
+Gaggino,cono senza glutine,Scatola
+Bonella,scatole torta 33x33,Scatola
+Bonella,scatole torta  31x44,Scatola

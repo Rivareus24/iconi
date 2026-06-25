@@ -169,10 +169,6 @@ Sorgente canonica del seed prodotti: [`data/seed/prodotti.csv`](../../../data/se
 fungibili acquistabili da più fornitori (es. Destrosio da Docks e Reire) restano
 come **righe distinte** — scelta voluta.
 
-**Da completare:** 5 prodotti senza unità di misura (segnati con `—`): Nescafè
-(Docks), misto bosco gelo (Gaggino), cono senza glutine (Gaggino), scatole torta
-33x33 (Bonella), scatole torta 31x44 (Bonella).
-
 ### Fornitori (19)
 
 Benvenuto · Bonella · Coopbox · Di Sano · Docks · Elenka · Ferrero · Fructital ·
@@ -187,7 +183,7 @@ Pistacchi interi (Kg.)
 
 **Bonella** — Alluminio rotolo (Nr.) · Rotoloni carta (Nr.) · Shopper carta
 personalizzati (Ct. 300pz) · Tovagliolini 17x17 personalizzati (Ct. 20.000pz) ·
-scatole torta 33x33 (—) · scatole torta 31x44 (—)
+scatole torta 33x33 (Scatola) · scatole torta 31x44 (Scatola)
 
 **Coopbox** — Vaschetta PCR0029 350gr (Ct. 50pz) · Vaschetta PCR0020 500gr.
 (Ct. 50pz) · Vaschetta PCR0023 750gr. (Ct. 50pz) · Vaschetta PCR0026 1000gr.
@@ -195,62 +191,62 @@ scatole torta 33x33 (—) · scatole torta 31x44 (—)
 
 **Di Sano** — Cocco Rapè (Kg.)
 
-**Docks** — Cucchiaini Granita (Sacchetto) · Destrosio (Kg.) · Palette gelato
-cm.9,5 comp. (Sacchetto) · Zucchero (Kg.) · Nescafè (—)
+**Docks** — Cucchiaini Granita (Sacch.) · Destrosio (Kg.) · Palette gelato
+cm.9,5 comp. (Sacch.) · Zucchero (Kg.) · Nescafè (Bar.)
 
-**Elenka** — Agrolina Ciaculli (Bottiglia) · Base Nolat (Sacchetto)
+**Elenka** — Agrolina Ciaculli (Bottiglia) · Base Nolat (Sacch.)
 
 **Ferrero** — Nutella (Secchio)
 
-**Fructital** — Arancia variegato (Latta Kg. 4) · Bianca Vega (Sacchetto) ·
-Bianca Vega Stevia (Sacchetto) · Mandorla pasta (Latta Kg. 3,5) · Viola
-(Latta Kg. 4) · Yogurt (Sacchetto Kg. 2) · crumble cacao (Sacchetto Kg. 2) ·
-crumble caramello (Sacchetto Kg. 2) · biscotto SL pasta (Latta Kg. 4) ·
+**Fructital** — Arancia variegato (Latta Kg. 4) · Bianca Vega (Sacch.) ·
+Bianca Vega Stevia (Sacch.) · Mandorla pasta (Latta Kg. 3,5) · Viola
+(Latta Kg. 4) · Yogurt (Sacch. Kg. 2) · crumble cacao (Sacch. Kg. 2) ·
+crumble caramello (Sacch. Kg. 2) · biscotto SL pasta (Latta Kg. 4) ·
 biscotto SL variegato (Latta Kg. 4)
 
-**Fugar** — Base Panna (Sacchetto Kg. 3) · CNC (Latta Kg. 6) · Crema emiliana
+**Fugar** — Base Panna (Sacch. Kg. 3) · CNC (Latta Kg. 6) · Crema emiliana
 (Latta Kg. 3) · Glassatura (Latta Kg. 5,5) · Menta (Latta Kg. 5,5) ·
 Pistacchio Puro (Latta Kg. 5,5) · Pistacchio Salty (Latta Kg. 3)
 
-**G&P** — Amaretti granella (Kg.) · Bignè mm. 45 (Cartone) · Dobus roll 12 fogli
+**G&P** — Amaretti granella (Kg.) · Bignè mm. 45 (Ct.) · Dobus roll 12 fogli
 (Fogli) · Fragola variegato (Latta Kg. 4) · Frutti di bosco variegato
 (Latta Kg. 3) · Nonnakrem pasta (Latta Kg. 3) · Pan di spagna (Fogli) ·
 Pistacchio Bronte (Kg.) · Semifreddo Stracciatella (Latta Kg. 1,25)
 
-**Gaggino** — Bignè mm. 45 cad. gr. ca.3/4 (Ct 6Sx250gr.) · Cannucce (Nr.) ·
+**Gaggino** — Bignè mm. 45 cad. gr. ca.3/4 (Ct. 6Sxgr 250) · Cannucce (Nr.) ·
 Cono Coppa piccola (Ct. 720pz) · Cono Super Granellato h180xd.50 (Ct. 150pz) ·
-Cucchiaini Granita (Sacchetto) · Dobus roll 12 fogli (Fogli) · Gocce bianco
-(Kg.) · Gocce fondente (Kg.) · Palette gelato cm.9,5 comp. (Sacchetto) ·
+Cucchiaini Granita (Sacch.) · Dobus roll 12 fogli (Fogli) · Gocce bianco
+(Kg.) · Gocce fondente (Kg.) · Palette gelato cm.9,5 comp. (Sacch.) ·
 Pan di spagna (Fogli) · scaglie fondenti (Kg.) · lamponi rotti (Kg.) ·
-fragole gelo (Kg.) · mango (Kg.) · misto bosco gelo (—) · cono senza glutine (—)
+fragole gelo (Kg.) · mango (Kg.) · misto bosco gelo (Kg.) · cono senza glutine (Scatola)
 
 **Irca** — Cacao 22/24 (Kg.) · CNC Nocciolata Ice (Latta Kg. 5) · Glassatura Joy
 Couv. extra dark (Latta Kg. 5) · Gocce bianco Reno Concerto (Kg.) · Gocce
 fondente Reno Concerto (Kg.) · Joycream raspberry milk (Latta Kg. 5) · Joycream
 raspberry white (Latta Kg. 5) · Joy couverture extra white (Latta Kg. 5) ·
 Franui Milk (Bar. 12X0,150) · Joyquick lampone (Sacch. 6xKg. 1,25) · Purea
-Lampone essential (Bar. 5x1Kg) · Joypaste caffè (Bar. 6x1.2Kg)
+Lampone essential (Bar. 5xKg. 1) · Joypaste caffè (Bar. 6xKg. 1,2)
 
 **Martini** — Cacao Aymara 22/24 (Kg.) · CNC Brunella Gianduia top (Latta Kg. 5) ·
 Glassatura Stracc Super. Fond. Più (Latta Kg. 5) · Gocce bianco (Kg.) · Gocce
 fondente (Kg.)
 
 **Mec3** — Biscottino pasta (Latta Kg. 4,5) · Cherry Mania (Latta Kg. 5) ·
-Cookies Variegato (Latta Kg. 6) · Frollini (Sacchetto gr. 700) · Liquirizia
+Cookies Variegato (Latta Kg. 6) · Frollini (Sacch. gr. 700) · Liquirizia
 (Latta Kg. 3) · Mini cookies (Scatola 300pz) · Mr Nico Pasta (Latta Kg. 5) ·
 Mr Nico Variegato (Latta Kg. 4) · Neutral Jelly (Latta Kg. 3) · Pistacchio Fior
 di sale Sicilia (Latta Kg. 4) · Vanilla Gourmet SZ pasta (Latta Kg. 3) · Vov
 pasta (Latta Kg. 4,5) · Mirror Glaze Fragola (Latta Kg. 3) · Mirror Glaze Violet
 (Latta Kg. 3) · Mirror Glaze Mango (Latta Kg. 3) · crumble neutro
-(Sacchetto Kg. 2,5) · crumble frutti di bosco (Sacchetto Kg. 2,5) · pasta
-mascarpone (Latta Kg. 4,5) · base caramello salato (Sacchetto) · caramello salato
+(Sacch. Kg. 2,5) · crumble frutti di bosco (Sacch. Kg. 2,5) · pasta
+mascarpone (Latta Kg. 4,5) · base caramello salato (Sacch.) · caramello salato
 variegatura (Latta Kg. 6) · Dubai pistacchio variegato (Latta Kg. 5,5) ·
-Guinness Kit (Cartone)
+Guinness Kit (Ct.)
 
 **Officine Grafiche** — Fascette adesive (Rotoli) · scatola torta 14x14 140pz
 (Nr.) · scatola torta 19x19 140pz (Nr.) · scatola torta 23x23 120pz (Nr.) ·
 scatola torta 27x27 100pz (Nr.) · scatola torta 31x31 100pz (Nr.) ·
-ShopperBio750pzxct caKg100=6000pz (Cartone)
+ShopperBio750pzxct caKg100=6000pz (Ct.)
 
 **Ostificio P.** — Cono grande OP5 (Ct. 225pz) · Cono maxi Cialda F91
 (Ct. 189pz) · Cono medio OP4 (Ct. 300pz) · Cono piccolo OP1 (Ct. 300pz) ·
@@ -268,12 +264,15 @@ polvere intero istantaneo (Kg.)
 
 ### Unità di misura
 
-Lista precaricata in `unita_misura` (deduplicata; "Ct. 50pz" era ripetuto):
+Lista precaricata in `unita_misura` (valori unici usati nei prodotti):
 
 ```
+Bar.
+Bar. 12X0,150
+Bar. 5xKg. 1
+Bar. 6xKg. 1,2
 Bottiglia
-Cartone
-Ct 6Sx250gr.
+Ct.
 Ct. 1000pz
 Ct. 150pz
 Ct. 189pz
@@ -281,8 +280,8 @@ Ct. 20.000pz
 Ct. 225pz
 Ct. 24pz
 Ct. 300pz
-Ct. 30pz
 Ct. 50pz
+Ct. 6Sxgr 250
 Ct. 720pz
 Fogli
 Kg.
@@ -296,19 +295,15 @@ Latta Kg. 5,5
 Latta Kg. 6
 Nr.
 Rotoli
-Sacchetto
-Sacchetto gr. 700
-Sacchetto Kg. 1,25
-Sacchetto Kg. 2
-Sacchetto Kg. 2,5
-Sacchetto Kg. 3
+Sacch.
 Sacch. 6xKg. 1,25
+Sacch. gr. 700
+Sacch. Kg. 2
+Sacch. Kg. 2,5
+Sacch. Kg. 3
+Scatola
 Scatola 300pz
 Secchio
-Cartone 10SxKg.1,2
-Bar. 12X0,150
-Bar. 6x1.2Kg
-Bar. 5x1Kg
 ```
 
 ## Linee guida per i mockup (Claude Design)
